@@ -95,7 +95,7 @@ html,body,.main{
     width: 4.6rem;
     height: 3rem;
     left: 0.4rem;
-    top: 1.9rem;
+    top: 2.1rem;
     line-height: .3rem;
     font-size: 0.23rem;
     text-indent: 1em;
@@ -145,31 +145,31 @@ html,body,.main{
 .slide2 img:nth-child(2){
     width: auto;
     height: 8.74rem;
-    left: .75rem;
+    left: .95rem;
     top: 0;
 }
 .slide2 img:nth-child(3){
     width: 1.6rem;
     height: auto;
-    left: 2.6rem;
+    left: 2.8rem;
     top: 3.5rem;
 }
 .slide2 img:nth-child(4){
     width: auto;
     height: 0.53rem;
-    left: 2rem;
-    top: 4.3rem;
+    left: 2.2rem;
+    top: 4.2rem;
 }
 .slide2 img:nth-child(5){
     width: auto;
     height: .45rem;
-    left: 2.5rem;
+    left: 2.7rem;
     top: 5.5rem;
 }
 .slide2 img:nth-child(6){
     width: auto;
     height: .45rem;
-    left: 1.9rem;
+    left: 2.1rem;
     top: 6.4rem;
 }
 .slide2 img:nth-child(7){
@@ -200,7 +200,7 @@ html,body,.main{
     color: #fff;
     font-size: .35rem;
     text-indent: 1.3rem;
-    line-height: 1.2rem;
+    line-height: 1rem;
 }
 .slide3 .sh i:nth-child(1){
     position: absolute;
@@ -208,10 +208,10 @@ html,body,.main{
     background-size: .4rem;
     border: solid 1px #fff;
     border-radius: 50%;
-    width: .62rem;
-    height: .62rem;
+    width: .5rem;
+    height: .5rem;
     left: .45rem;
-    top: .3rem;
+    top: .25rem;
 }
 .slide3 .sh span:nth-child(2){
     color: #f54a4a;
@@ -375,8 +375,8 @@ html,body,.main{
     height: auto;
     line-height: .4rem;
     left: 0;
-    top: 1.9rem;
-    font-size: .18rem;
+    top: 1.7rem;
+    font-size: 13px;
     color: #222;
 }
 
@@ -412,7 +412,7 @@ html,body,.main{
     line-height: .4rem;
     left: 0;
     top: 5.7rem;
-    font-size: .186rem;
+    font-size: 13px;
     color: #222;
 }
 .slide3 img:nth-child(4){
@@ -478,7 +478,7 @@ html,body,.main{
     width: auto;
     height: .5rem;
     left: .2rem;
-    top: 3.79rem;
+    top: 4rem;
     line-height: 0.45rem;
     font-size: .35rem;
     color: #fff;
@@ -489,7 +489,7 @@ html,body,.main{
     width: 80%;
     height: auto;
     left: .2rem;
-    top: 4.7rem;
+    top: 4.9rem;
     line-height: .35rem;
     font-size: .24rem;
     color: #fff;
@@ -500,7 +500,7 @@ html,body,.main{
     width: 95%;
     height: .3rem;
     left: .2rem;
-    top: 5.1rem;
+    top: 5.3rem;
     line-height: .3rem;
     font-size: 0.16rem;
     color: yellow;
@@ -510,9 +510,9 @@ html,body,.main{
     width: 93%;
     height: auto;
     left: .2rem;
-    top: 5.6rem;
+    top: 5.8rem;
     line-height: .4rem;
-    font-size: .18rem;
+    font-size: 13px;
     color: #fff;
     text-align:Justify;
     text-justify:inter-ideograph;
@@ -594,17 +594,17 @@ html,body,.main{
     width: .3rem;
     height: auto;
     display: block;
-    top: 4rem;
-    left: 1.8rem;
+    top: 4.4rem;
+    left: 2.2rem;
 }
 .slide6 p:nth-child(3){
     position: absolute;
     width: auto;
     line-height: 1.2rem;
-    font-size: .2rem;
+    font-size: 16px;
     color: #fff;
-    top: 3.5rem;
-    left: 2.5rem;
+    top: 3.9rem;
+    left: 2.8rem;
 }
 .slide6 img:nth-child(4){
     position: absolute;
@@ -907,10 +907,12 @@ html,body,.main{
 }
 
 #page5 img:nth-child(2){
-    -webkit-animation:rightMove1 1s 0.5s both;
-    animation:rightMove1 1s 0.5s both;
+    -webkit-animation:rightMoved 1s 0.5s both;
+    -moz-animation:rightMoved 1s 0.5s both;
+    -o-animation:rightMoved 1s 0.5s both;
+    animation:rightMoved 1s 0.5s both;
 }
-@keyframes rightMove1 {
+@keyframes rightMoved {
     0%{
         transform: skewX(50deg) translate(8rem) ;
     }
@@ -922,10 +924,12 @@ html,body,.main{
     }
 }
 #page5 img:nth-child(3){
-    -webkit-animation:rightMove2 1s 1.5s both;
-    animation:rightMove2 1s 1.5s both;
+    -webkit-animation:rightMoves 1s 1.5s both;
+    -moz-animation:rightMoves 1s 1.5s both;
+    -o-animation:rightMoves 1s 1.5s both;
+    animation:rightMoves 1s 1.5s both;
 }
-@keyframes rightMove2 {
+@keyframes rightMoves {
     0%{
         transform: skewX(50deg) translate(8rem) ;
     }
